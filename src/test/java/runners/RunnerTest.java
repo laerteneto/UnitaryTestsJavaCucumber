@@ -7,9 +7,9 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features/aprender_cucumber.feature",
-		glue = {"helpers", "steps"},
-		tags = {}, 
+		features = "src/test/resources/features/inserir_conta.feature",
+		glue = {"helpers", "steps/AprenderCucumberSteps"},
+		tags = {"@unitarios"}, 
 		plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE,
@@ -19,5 +19,5 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 
 public class RunnerTest {
-
+	
 }

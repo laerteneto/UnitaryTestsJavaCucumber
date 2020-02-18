@@ -1,4 +1,5 @@
 # language: pt
+@unitarios
 Funcionalidade: Aprender Cucumber
   Como um aluno
   Eu quero aprender a utilizar Cucumber
@@ -9,7 +10,6 @@ Funcionalidade: Aprender Cucumber
     Quando executá-lo
     Então a especificação deve finalizar com sucesso
 
-@ignore
   Cenário: Deve incrementar contador
     Dado que o valor do contador é 15
     Quando eu incrementar em 3
