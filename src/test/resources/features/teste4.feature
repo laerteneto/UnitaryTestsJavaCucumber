@@ -26,7 +26,6 @@ Feature: Check Underwriting workflow to get approval and reproval status
     And The field "Legal Representative ID" must be diplayed
     And The field "Giro or MCC" must be diplayed
     And The field "Nombre de la cuenta" must be diplayed
-    And The button "Seguir" must be diplayed
     And The button "Cambiar proprietario" must be displayed
     And The field "Tipo de registro del caso" must be "Underwriting"
     And The field "Proprietario del caso" must be "User Underwriting"

@@ -16,7 +16,6 @@ Feature: Check BackOffice workflow to get approval and reproval status
     And The field "Legal Representative ID" must be diplayed
     And The field "Giro or MCC" must be diplayed
     And The field "Nombre de la cuenta" must be diplayed
-    And The button "Seguir" must be diplayed
     And The button "Cambiar proprietario" must be displayed
     And The field "Tipo de registro del caso" must be "Back Office"
     And The field "Proprietario del caso" must be "Back Office"
